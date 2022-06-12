@@ -34,6 +34,8 @@ then select from choices where to run
 › Press d │ show developer tools
 ```
 
+if errors occurs when running try to show developers tools `(Press d)` and change connection to `Lan`
+
 To directory run to Android device/emulator
 
 ```

@@ -116,6 +116,10 @@ class DetailScreen extends Component<DetailScreenProps, DetailScreenState> {
                 </Text>
               </ViewComponent>
               <ViewComponent style={styles.rowContainer}>
+                <Text style={styles.detailsText}>Tags</Text>
+                <Text style={styles.detailsText}>{imageData?.tags}</Text>
+              </ViewComponent>
+              <ViewComponent style={styles.rowContainer}>
                 <Text style={styles.detailsText}>Views</Text>
                 <Text style={styles.detailsText}>{imageData?.views}</Text>
               </ViewComponent>
